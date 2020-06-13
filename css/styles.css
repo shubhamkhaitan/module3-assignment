@@ -1,0 +1,96 @@
+#header-nav {
+    background-color: burlywood;
+    border-radius: 0;
+    border: 0;
+}
+  
+.navbar-brand h1 {
+    font-family: 'Lora', serif;
+    color: solid black;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+#nav-list {
+    margin-top: 10px;
+    background-color: wheat;
+}
+
+#nav-list a {
+    font-family: 'Lora', serif;
+    color: solid black;
+    font-weight: bold;
+    text-align: center;
+}
+#nav-list a:hover {
+    background: whitesmoke;
+}
+#nav-list a span {
+    font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    width: 100%;
+}
+
+#p1 {
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    padding: 5px;
+    font-weight: bold;
+    font-family: 'Lora', serif;
+    margin-top: 10px;
+}
+
+#p2 {
+    background-color: gray;
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'Lora', serif;
+}
+
+@media (min-width: 992px) {
+    .col-md-12 {
+        float: left;
+        border: 1px solid black;
+        width: 100%;
+        background-color: gray;
+        margin: 1%;
+    }
+}
+
+@media (min-width: 798px) and (max-width: 991px) {
+    .col-sm-12 {
+        border: 5px solid black;
+        width: 100%;
+        background-color: gray;
+        margin: 1%;
+    }
+}
+
+@media (max-width: 797) {
+    .col-xs-12 {
+        border: 1px solid black;
+        width: 100%;
+        background-color: gray;
+        margin: 1%;
+    }
+}
